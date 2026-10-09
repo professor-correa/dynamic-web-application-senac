@@ -1,0 +1,17 @@
+{
+  "name": "dynamic-web-application-senac",
+  "version": "1.0.0",
+  "description": "```text\r dynamic-web-application-senac/\r ├── package.json\r ├── server.js\r ├── src/\r │   ├── config/\r │   │   └── database.js\r │   ├── controllers/\r │   │   └── userController.js\r │   ├── models/\r │   │   └── userModel.js\r │   ├── routes/\r │   │   └── apiRoutes.js\r │   └── utils/\r │       └── mimeTypes.js\r └── public/\r     ├── 404.html\r     ├── assets/\r     │   ├── icons/\r     │   └── illustrations/\r     ├── css/\r     │   ├── base/\r     │   │   ├── root.css\r     │   │   └── variables.css\r     │   └── main.css\r     └── pages/\r         ├── home/\r         │   ├── index.html\r         │   ├── script.js\r         │   └── style.css\r         └── users/\r             ├── index.html\r             ├── script.js\r             └── style.css\r ```",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --env-file=.env server.js",
+    "start": "node --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
